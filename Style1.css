@@ -1,1 +1,24 @@
-/*will dictate the orientation and alignment of the Google
+/*will dictate the orientation and alignment of the Google*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#h2{
+
+}
+
+#h3 {
+
+
+}
+
+#h4{
+
+}
+
+#h5{
+    
+}
