@@ -1,24 +1,23 @@
-/*will dictate the orientation and alignment of the Google*/
-.center{
-    display: block;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
+
+input{
+    height: 25px;
+    width: 400px;
+    font-size:10pt;
+}
+
+img{
+    display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
+    width: 40%;
 
-#h2{
-
-}
-
-#h3 {
-
-
-}
-
-#h4{
-
-}
-
-#h5{
-    
 }
