@@ -5,4 +5,6 @@ The aforementioned is HTML input, in the CSS, you would then do #""{} to call on
 
 Figure out how to assign different placement to navigation bar
 
-Figure out how to place the search bar below the google logo -->
+Figure out how to place the search bar below the google logo 
+
+If doing a Div class ID, you have to do "." in the-->

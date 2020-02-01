@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <head>
+    <meta charset="UTF-8">
     <title>
         Google
     </title>
@@ -9,16 +10,35 @@
 
 <body>
 
+    <nav id="topnav">
     <ul>
-        <li><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-        <li><a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
-        <li><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></li>
-        <li><a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+        <li class = "top-left"><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li class = "top-left"><a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
+        <li class = "top-right"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></li>
+        <li class = "top-right"><a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
     </ul>
+    </nav> 
+    <form action="/search" method="GET" name="search" id="search-form" class="search">
 
-     <input>
-     <input type="submit" value="Google Search">
+<input type="submit" form="search-form" value="Google Search">
+<input type="submit" form = "search-form" value="I'm feeling Lucky'">
+  
+
+<div class="textbox">
+<input type="text">
+</div>
+
+<nav id="footer">
+<ul>
+    <li class="bottom-left"><a href="##">Advertising</a></li>
+    <li class="bottom-left"><a href="##">Business</a></li>
+    <li class="bottom-left"><a href="##">How Search Works</a></li>
+    <li class="bottom-right"><a href="##">Privacy</a></li>
+    <li class="bottom-right"><a href="##">Terms</a></li>
+    <li class="bottom-right"><a href="##">Settings</a></li>
+</ul>
+</nav>
      
 
-<img src = "https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt ="Google" width="17.55%" height="17.55%" >
+<img src = "https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt ="Google" width="15.55%" height="15.55%" >
 </body>
